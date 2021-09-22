@@ -5,7 +5,11 @@ A simple baseline for SIGS_Big_Data_ML_Exam_2021.
 https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 # Environment
-
+- python 3.6
+- torch 1.5.1
+- torchvision 0.6.0
+- tqdm
+必须用`GPU`跑 Q.Q
 
 # Download data
 
@@ -45,4 +49,4 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 1. 这只是个baseline，不要求一定使用这个代码
 2. 遇到问题及时与助教沟通，或者提 `issus`
-3. 请维护好自己的 git commit 记录，尽量在每次 commit 时都写明自己的具体工作
+3. 请维护好自己的 `git commit` 记录，尽量在每次 `commit` 时都写明自己的具体工作
