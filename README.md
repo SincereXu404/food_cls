@@ -23,9 +23,9 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 生成索引文件，创建数据集：
 
-`python prepare.py --src ./data/food/train --out ./data/food/train.txt`
+`python prepare.py --src /data/food/train --out /data/food/train.txt`
 
-`python prepare.py --src ./data/food/val  --out ./data/food/val.txt`
+`python prepare.py --src /data/food/val  --out /data/food/val.txt`
 
 修改 `dataset.py` 的 `107-108` 行为你的指定路径
 
