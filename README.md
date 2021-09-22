@@ -9,6 +9,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 - torch 1.5.1
 - torchvision 0.6.0
 - tqdm
+
 必须用 `GPU` 跑 Q.Q
 
 # Download data
