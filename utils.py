@@ -74,9 +74,9 @@ def adjust_learning_rate(optimizer, epoch, cfg):
         epoch = epoch + 1
         if epoch <= 5:
             lr = cfg.lr * epoch / 5
-        elif epoch > 180:
+        elif epoch > 80:
             lr = cfg.lr * 0.01
-        elif epoch > 160:
+        elif epoch > 60:
             lr = cfg.lr * 0.1
         else:
             lr = cfg.lr
