@@ -10,7 +10,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 - torchvision 0.6.0
 - tqdm
 
-必须用 `GPU` 跑 Q.Q
+必须用 `GPU` 跑 Q.Q (3 min per epoch on Tesla T4 8GB Memory)
 
 # Download
 
