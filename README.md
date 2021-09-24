@@ -12,7 +12,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 必须用 `GPU` 跑 Q.Q
 
-# Download data
+# Download
 
 下载数据到指定路径 `./data/food/`,将三个文件夹分别移动到:
 
@@ -20,7 +20,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 - `./data/food/val`
 - `./data/food/test`
 
-# Prepare data
+# Prepare
 
 生成索引文件，创建数据集：
 
@@ -30,7 +30,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 修改 `dataset.py` 的 `107-108` 行为你的指定路径
 
-# Set hyper-parameter
+# Hyper-parameter
 
 修改 `config.py` 的超参数为你需要的值
 
