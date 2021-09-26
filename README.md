@@ -34,7 +34,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 修改 `config.py` 的超参数为你需要的值
 
-`root_path`修改为你的项目本地路径
+`root`修改为你的项目本地路径
 
 # Train
 
