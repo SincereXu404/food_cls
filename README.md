@@ -38,7 +38,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 # Train
 
-`python train.py`
+`CUDA_VISIBLE_DEVICES=0 python train.py`
 
 # Inferance
 
