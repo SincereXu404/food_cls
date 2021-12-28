@@ -104,8 +104,8 @@ class Food_LT(object):
             ])
         
         ''' change to your index path '''
-        train_txt = "/data/food/train.txt"
-        eval_txt = "/data/food/val.txt"
+        train_txt = "./data/food/train.txt"
+        eval_txt = "./data/food/val.txt"
         
         train_dataset = LT_Dataset(root, train_txt, transform=transform_train)
         eval_dataset = LT_Dataset_Eval(root, eval_txt, transform=transform_test, class_map=train_dataset.class_map)
